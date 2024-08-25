@@ -1,28 +1,8 @@
-<!--suppress ALL -->
-<div align="center">
-  <a href="https://github.com/TheTrustyPwo/ZBSchools-Macro/graphs/contributors" target="_blank">
-    <img src="https://img.shields.io/github/contributors/TheTrustyPwo/ZBSchools-Macro.svg?style=for-the-badge" alt="Contributors">
-  </a>
-  <a href="https://github.com/TheTrustyPwo/ZBSchools-Macro/network/members" target="_blank">
-    <img src="https://img.shields.io/github/forks/TheTrustyPwo/ZBSchools-Macro.svg?style=for-the-badge" alt="Forks">
-  </a>
-  <a href="https://github.com/TheTrustyPwo/ZBSchools-Macro/stargazers" target="_blank">
-    <img src="https://img.shields.io/github/stars/TheTrustyPwo/ZBSchools-Macro.svg?style=for-the-badge" alt="Contributors">
-  </a>
-  <a href="https://github.com/TheTrustyPwo/ZBSchools-Macro/issues" target="_blank">
-    <img src="https://img.shields.io/github/issues/TheTrustyPwo/ZBSchools-Macro.svg?style=for-the-badge" alt="Forks">
-  </a>
-  <a href="https://github.com/TheTrustyPwo/ZBSchools-Macro/blob/master/LICENSE.txt" target="_blank">
-    <img src="https://img.shields.io/github/license/TheTrustyPwo/ZBSchools-Macro.svg?style=for-the-badge" alt="Contributors">
-  </a>
-</div>
-
-
 <!-- PROJECT TITLE -->
 <!--suppress HtmlDeprecatedAttribute, HtmlUnknownAnchorTarget -->
 
 <div align="center">
-<h3 align="center">ZBSchools - Macro</h3>
+<h3 align="center">ZBSchools - Macro (Forked from <a href="https://github.com/TheTrustyPwo/ZBSchools-Macro">TheTrustyPwo/ZBSchools-Macro</a>)</h3>
   <p align="center">
     Auto grinder for ZBSchools built with Python Selenium
     <br/>
@@ -31,8 +11,6 @@
     <a href="https://github.com/TheTrustyPwo/ZBSchools-Macro/issues">Request Feature</a>
   </p>
 </div>
-
-
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -54,6 +32,8 @@ This is a rather simple Python script which makes use of Selenium's ability
 to interact with the web browser to create a sophisticated bot capable of solving
 most questions with absolute precision.
 
+This project was forked to maintain the original project which had outdated dependencies.
+
 Some awesome features:
 * Lightweight
 * Runs in the background
@@ -73,18 +53,16 @@ for all consequences of your actions.
 
 <!-- INSTALLATION -->
 ## Installation
-
-Prerequisites: Cookie Editor browser extension, Chrome version 110 (Latest as of 19 Feb 2023)
-
-1. Head to <a href="https://github.com/TheTrustyPwo/ZBSchools-Macro/releases/">Release</a> and download the release zip file
+1. Clone/download this repository
 2. Once complete, extract the zip file
-3. In the extracted folder, you should see 3 files, namely `main.exe`, `config.json` and `cookies.json`
+3. In the extracted folder, you should see 3 files, namely `main.py`, `config.json` and `cookies.json`
 4. Go to <a href="https://www.zbschools.sg/">ZBSchools</a> and sign in
 5. Using the <a href="https://chrome.google.com/webstore/detail/cookie-editor/hlkenndednhfkekhgcdicdfddnkalmdm?hl=en">Cookie Editor</a> extension, export your cookies which should copy them to your clipboard
 6. Open `cookies.json` and clear all the text in the file and paste your cookies in
 7. Note that you need to do this every time your cookies change (Which depends on your activity)
 8. Modify `config.json` to your liking. Refer to the section below.
-9. Finally, run main.exe which will open a terminal
+9. Run `pip install -r requirements.txt` in the terminal to install the required dependencies
+10. Finally, run main.py and watch the magic happen!
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -134,6 +112,6 @@ Distributed under the GNU GPLv3 License. See `LICENSE.txt` for more information.
 
 TheTrustyPwo - Pwo#0001 - thetrustypwo@gmail.com
 
-Project Link: [https://github.com/TheTrustyPwo/ZBSchools-Macro](https://github.com/TheTrustyPwo/ZBSchools-Macro)
+Original Project Link: [https://github.com/TheTrustyPwo/ZBSchools-Macro](https://github.com/TheTrustyPwo/ZBSchools-Macro)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
